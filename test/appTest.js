@@ -14,7 +14,6 @@ describe('App', () => {
       });
 
       it('sayHello should return type string', () => {
-         // let result = app.sayHello();
          assert.typeOf(sayHelloResult, 'string');
       });
    });
